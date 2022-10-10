@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c i | tr -d 'ln' | sort
+echo $(cut -c1 | tr -d " \n")
